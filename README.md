@@ -1,2 +1,3 @@
-# gymbud-legal
-Public legal and support website for GymBud, containing the Privacy Policy, support contact details, and app-related user information.
+# GymBud Legal & Support
+
+This repository hosts the public legal and support pages for GymBud, including the Privacy Policy and App Support page.
