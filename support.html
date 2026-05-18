@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GymBud Support</title>
+
+  <style>
+    :root {
+      --primary: #00FF9C;
+      --secondary: #00D1FF;
+      --tertiary: #04D5FF;
+      --background: #0E1111;
+      --card: #141818;
+      --card-border: #242A2A;
+      --text: #F4F7F7;
+      --muted: #A6ADAD;
+      --soft-primary: rgba(0, 255, 156, 0.12);
+      --soft-secondary: rgba(0, 209, 255, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(0, 255, 156, 0.12), transparent 28%),
+        radial-gradient(circle at top right, rgba(0, 209, 255, 0.10), transparent 30%),
+        var(--background);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+
+    .hero {
+      border: 1px solid var(--card-border);
+      background: linear-gradient(135deg, rgba(0, 255, 156, 0.13), rgba(0, 209, 255, 0.08));
+      border-radius: 28px;
+      padding: 40px;
+      margin-bottom: 24px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--soft-primary);
+      color: var(--primary);
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 1.05;
+      letter-spacing: -1.5px;
+    }
+
+    .intro {
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .content {
+      display: grid;
+      gap: 18px;
+    }
+
+    section {
+      background: rgba(20, 24, 24, 0.88);
+      border: 1px solid var(--card-border);
+      border-radius: 22px;
+      padding: 28px;
+    }
+
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 12px;
+      font-size: 22px;
+      letter-spacing: -0.3px;
+    }
+
+    h2::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--primary);
+      box-shadow: 0 0 18px rgba(0, 255, 156, 0.7);
+      flex-shrink: 0;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 22px;
+      color: var(--muted);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .support-box {
+      color: var(--text);
+      background: var(--soft-primary);
+      border: 1px solid rgba(0, 255, 156, 0.22);
+      border-radius: 16px;
+      padding: 18px;
+      margin-top: 14px;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 32px;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 32px 14px;
+      }
+
+      .hero {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      section {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <header class="hero">
+      <span class="badge">GymBud Support</span>
+      <h1>Need help with GymBud?</h1>
+
+      <p class="intro">
+        We’re here to help with account issues, workout tracking problems,
+        routine creation, bug reports, and data deletion support.
+      </p>
+    </header>
+
+    <div class="content">
+      <section>
+        <h2>Contact Support</h2>
+        <p>
+          For support, questions, feedback, or bug reports, contact us by email.
+        </p>
+
+        <p class="support-box">
+          Email:
+           <a href="mailto:basu.singh05@gmail.com">basu.singh05@gmail.com</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Common Support Topics</h2>
+        <p>
+          You can contact us for help with:
+        </p>
+
+        <ul>
+          <li>Account login or signup issues</li>
+          <li>Workout logging issues</li>
+          <li>Routine creation or editing issues</li>
+          <li>Exercise data issues</li>
+          <li>Progress tracking issues</li>
+          <li>Bug reports</li>
+          <li>Account and data deletion requests</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Account Deletion</h2>
+        <p>
+          GymBud allows users to delete their account directly from within the app.
+          When you delete your account, your personal information and associated workout
+          data will be deleted or anonymized from our systems, unless retention is
+          required for legal, security, or operational reasons.
+        </p>
+
+        <p class="support-box">
+          If you are unable to delete your account from the app, email us at:
+          <a href="mailto:basu.singh05@gmail.com">basu.singh05@gmail.com</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Privacy Policy</h2>
+        <p>
+          You can read the GymBud Privacy Policy here:
+          <a href="privacy-policy.html">View Privacy Policy</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Response Time</h2>
+        <p>
+          We try to respond to support requests as soon as possible. Response times may
+          vary depending on the type of request and the amount of detail provided.
+        </p>
+      </section>
+    </div>
+
+    <p class="footer">
+      © 2026 GymBud. All rights reserved.
+    </p>
+  </main>
+</body>
+</html>
